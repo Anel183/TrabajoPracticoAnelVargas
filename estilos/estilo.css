@@ -1,0 +1,68 @@
+.padre
+{
+    padding: 5px;
+    background-color: rgb(239, 221, 200);
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header    header  header"
+                         "vav       nav1     nav   "
+                         "cont1     cont2   cont3 "
+                         "cont4     cont5   cont6 "
+                         "foot      foot    foot  ";
+
+}
+
+.padre .header
+{
+    grid-area: header;
+}
+.padre .nav
+{
+    grid-area: nav;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.padre .nav1
+{
+    grid-area: nav;
+    
+}
+.padre .cont1
+{
+    grid-area: cont1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.padre .cont2
+{
+    grid-area: cont2;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.padre .cont3
+{
+    grid-area: cont3;
+   
+}
+.padre .cont4
+{
+    grid-area: cont4;
+   
+}
+.padre .cont5
+{
+    grid-area: cont5;
+   
+}
+.padre .cont6
+{
+    grid-area: cont6;
+   
+}
+.padre .foot
+{
+    grid-area: foot;
+
+}
+
+    
